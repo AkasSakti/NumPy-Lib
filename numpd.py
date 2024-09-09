@@ -33,13 +33,3 @@ bulan_tertinggi = pemasukan_bulanan['Bulan'].iloc[np.argmax(pemasukan_array)]
 bulan_terendah = pemasukan_bulanan['Bulan'].iloc[np.argmin(pemasukan_array)]
 print(f'Bulan dengan Pemasukan Tertinggi: {bulan_tertinggi}')
 print(f'Bulan dengan Pemasukan Terendah: {bulan_terendah}')
-
-# Visualisasi Pemasukan Bulanan
-#plt.figure(figsize=(10, 5)) 
-#plt.plot(pemasukan_bulanan['Bulan'], pemasukan_array, marker='o')
-#plt.title('Pemasukan Bulanan') 
-#plt.xlabel('Bulan') 
-#plt.ylabel('Pemasukan')
-
-# Menampilkan grafik
-#plt.show()
